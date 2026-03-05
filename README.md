@@ -18,9 +18,7 @@ The project has been refactored for clarity and modularity. The codebase is orga
 │   ├── evaluation/
 │   │   ├── rag_evaluation_f1.py      # Computes Exact Match (EM) and F1-score for RAG output
 │   │   ├── rag_evaluation_llm.py     # Uses a strong LLM as a Judge (e.g. Llama-3.2-3B) to score accuracy
-│   │   ├── recall_evaluate.py        # Evaluates document retrieval recall/precision metrics
-│   │   ├── factscount.py             # Counts matching facts in outputs
-│   │   └── summarize_generate.py     # Prototype/playground for summarization and answering steps
+│   │   └── recall_evaluate.py        # Evaluates document retrieval recall/precision metrics
 │   └── training/
 │       ├── reranker_train.py         # Trains a custom CrossEncoder reranker
 │       └── train_hyperparameter.py   # Hyperparameter search/tuning for reranker training
