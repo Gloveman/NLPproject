@@ -1,5 +1,7 @@
 # RAG Performance Improvement on HotpotQA
 
+### [📃Project Paper](https://drive.google.com/file/d/1UtdqrXbyhR4sCsVpxVFaM3ivPHowzbId/view?usp=drive_link)
+
 This project aims to improve Retrieval-Augmented Generation (RAG) performance on the HotpotQA dataset. It explores baseline RAG approaches and introduces custom improvements (such as customized rerankers and contextual thresholding) to yield higher quality document retrieval and more accurate answering.
 
 ## Project Structure
